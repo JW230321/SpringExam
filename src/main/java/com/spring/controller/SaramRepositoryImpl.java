@@ -14,7 +14,12 @@ public class SaramRepositoryImpl implements SaramRepository {
 	
 	@Override
 	public void insert(Map<String, Object> map) {
-		sqlSessionTemplate.insert("saram.insert");
+		System.out.println("Repository");
+		System.out.println(map.get("id"));
+		System.out.println(map.get("name"));
+		System.out.println(map.get("age"));
+		System.out.println();
+		sqlSessionTemplate.insert("saram.insert",map);
 	}
 
 }

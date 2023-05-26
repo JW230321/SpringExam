@@ -10,5 +10,10 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+
+<a href="create">등록페이지</a>
+<br>
+<a href="read">목록페이지</a>
+<br>
 </body>
 </html>
