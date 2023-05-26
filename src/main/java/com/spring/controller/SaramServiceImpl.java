@@ -1,5 +1,6 @@
 package com.spring.controller;
 
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,12 @@ public class SaramServiceImpl implements SaramService {
 		System.out.println();
 		saramRepository.insert(map);
 
+	}
+
+	@Override
+	public List<Map<String, Object>> select() {
+
+		return saramRepository.select();
 	}
 
 }

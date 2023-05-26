@@ -13,7 +13,7 @@
 
 <a href="create">등록페이지</a>
 <br>
-<a href="read">목록페이지</a>
+<a href="select">목록페이지</a>
 <br>
 </body>
 </html>

@@ -7,8 +7,15 @@ INSERT INTO saram
 VALUES
 (#{id},#{name},#{age})
 ]]>
-</insert>
 
+</insert>
+<select id="select" resultType="hashMap">
+
+<![CDATA[
+SELECT *
+FROM saram
+]]>
+</select>
 
 
 
